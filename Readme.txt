@@ -1,6 +1,4 @@
-# Curriculum - Carlos Relaño 
-
-Este Portfolio ha sido desarrollado gracias a Raul de Santos Rico:
+Esta pagina ha sido desarrollado gracias a Raul de Santos Rico:
 raulsr.projects@gmail.com
 https://github.com/rsantos88
 
