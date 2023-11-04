@@ -279,27 +279,25 @@
 
         <div class="section-title">
           <h2>Proyectos personales</h2>
-          <p style="text-align: justify;">Aquí comparto algunos proyectos que he hecho:
+          <p style="text-align: justify;">Aquí comparto algunos proyectos que he hecho. Si quieres saber más sobre ellos, haz click.
           </p>
         </div>
         
-        <!--
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Todas</li>
-              <li data-filter=".filter-uni">Universidad</li>
-              <li data-filter=".filter-DIY">Caseros</li>
-              <li data-filter=".filter-work">Trabajo</li>
-            </ul>
-          </div>   
-        </div>
-        -->
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
+
+        <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-uni">Universidad</li>
+          <li data-filter=".filter-paper">Articulos</li>
+
+        </ul><!-- End Projects Filters -->
+      
+        
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
           <!-- Universidad -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-uni">
             <a href="proyectos/proyecto-brazo.html">
               <div class="portfolio-content">
                 <img src="assets/img/proyectos/uni/proyecto-brazo.jpg" class="img-fluid" alt="">
@@ -307,11 +305,12 @@
                   <h4>Brazo Blando</h4>
                   <p>Haz click para descubrir más</p>
                 </div>
+                
               </div>
             </a>
-          </div><!-- End Projects Item -->
+          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-paper">
             <a href="proyectos/proyecto-paper.html">
               <div class="portfolio-content">
                 <img src="assets/img/proyectos/uni/proyecto-paper.jpg" class="img-fluid" alt="">
@@ -321,7 +320,10 @@
                 </div>
               </div>
             </a>
-          </div><!-- End Projects Item -->
+          </div>
+          <!-- End Projects Item -->
+
+        </div>
 
           <!-- Personal -->
 
