@@ -834,8 +834,18 @@ section {
   background: rgba(0, 0, 0, 0.6);
   padding: 15px;
 }
+/*  */
+.portfolio .portfolio-content .portfolio-top {
 
-.portfolio .portfolio-content h4 {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+
+  padding: 15px;
+}
+
+.portfolio .portfolio-content .portfolio-top h4 {
   font-size: 14px;
   padding: 5px 10px;
   font-weight: 400;
@@ -843,6 +853,8 @@ section {
   display: inline-block;
   background-color: var(--color-primary);
 }
+ 
+
 .portfolio .portfolio-content .portfolio-info h4 {
   font-size: 14px;
   padding: 5px 10px;
@@ -1116,7 +1128,8 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: url("../img/hero-bg.jpg") top center no-repeat;
+  background: url("../img/hero-bg.jpg") center center; 
+  /* top center no-repeat; */
   background-size: cover;
   font-size: 14px;
   padding: 0px 0 60px 0;
