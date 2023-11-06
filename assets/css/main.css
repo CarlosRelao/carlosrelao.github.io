@@ -246,15 +246,17 @@ section {
 }
 
 .header .logo h1 {
-  font-size: 24px;
+  font-size: 50px; /*24px*/
   font-weight: 200;
   color: #fff;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   font-family: "Cormorant Garamond", serif;
   /* font-family: var(--font-primary); */
 }
 
 .header .logo h1 span {
+  font-size: 80px; 
+  font-weight: 100;
   color: var(--color-primary);
 }
 
