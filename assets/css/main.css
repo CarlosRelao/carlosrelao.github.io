@@ -12,9 +12,16 @@
 /* Colors */
 :root {
   --color-default:  #272829;
-  --color-primary: #788faa;
+  /* --color-primary: #334148; */
+  --color-primary: #5b7380;
+  /* --color-primary: #788faa; */
   /* --color-primary: #149ddd; */
-  --color-secondary:  #173b6c;
+  /* --color-secondary:  #173b6c; */
+  /* --color-secondary:  #62828f; */
+
+  
+  --color-secondary:  #3f5059;
+
 }
 
 /* Smooth scroll behavior */
@@ -60,7 +67,9 @@ section {
 
 .section-bg {
   /* background-color: #f5f6f7; */
-  background-color:  #e4edf9;
+  /* background-color:  #e4edf9; */
+  background-color:  #edf3f5;
+
 }
 
 /* */
@@ -246,8 +255,10 @@ section {
 }
 
 .header .logo h1 {
-  font-size: 50px; /*24px*/
-  font-weight: 200;
+  /* font-size: 50px; 24px
+  font-weight: 200; */
+  font-size: 80px; 
+  font-weight: 100;
   color: #fff;
   margin-bottom: 0px;
   font-family: "Cormorant Garamond", serif;
@@ -258,6 +269,19 @@ section {
   font-size: 80px; 
   font-weight: 100;
   color: var(--color-primary);
+}
+.header .logo h2 {
+  font-size: 80px; 
+  font-weight: 100;
+  margin-bottom: 0px;
+  color: #fff;
+  font-family: "Cormorant Garamond", serif;
+  /* font-family: var(--font-primary); */
+}
+
+.header .logo h2 span {
+  color: var(--color-primary);
+
 }
 
 /*--------------------------------------------------------------
@@ -637,7 +661,9 @@ section {
 .about  .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
+  /* background: #212431; */
+  background: var(--color-primary);
+
   color: #fff;
   line-height: 1;
   padding: 11px 0;
@@ -692,7 +718,9 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid var(--color-primary);
+
+  /* border-left: 2px solid #1f5297; */
   position: relative;
 }
 
@@ -708,7 +736,10 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  /* background: #b8d2d6; */
+  background: #d1dfe4;
+  /* background: #e4edf9; */
+
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -736,7 +767,9 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid var(--color-primary);
+  /* border: 2px solid #1f5297; */
+
 }
 
 
@@ -1088,7 +1121,8 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  /* background: #dff3fc; */
+  background:  #d1dfe4;
   display: flex;
   justify-content: center;
   align-items: center;
