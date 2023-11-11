@@ -179,7 +179,9 @@ section {
 
 .scroll-top i {
   font-size: 24px;
-  color: var(--color-secondary);
+  /* color: var(--color-secondary); */
+  color:#fff;
+
   line-height: 0;
 }
 
