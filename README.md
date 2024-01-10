@@ -21,9 +21,9 @@ Para ver el CV, simplemente haz [click aquí](https://carlosrelao.github.io/). L
 
 Contribuciones
 --------
-Aunque este repositorio sirve principalmente como CV personal, las contribuciones en forma de comentarios, sugerencias o notificación de problemas son bienvenidas. Por favor, mantenga un tono de comunicación respetuoso y constructivo cuando contribuya.
-
 Dar especial gracias a Raul de Santos Rico por sus aportaciones: raulsr.projects@gmail.com https://github.com/rsantos88 y a la plantilla de [iPortfolio](https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/). Author: BootstrapMade.com License: https://bootstrapmade.com/license/
+
+Aunque este repositorio sirve principalmente como CV personal, las contribuciones en forma de comentarios, sugerencias o notificación de problemas son bienvenidas.
 
 Contacto
 --------
