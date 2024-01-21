@@ -628,11 +628,37 @@ section {
 # About Section
 --------------------------------------------------------------*/
 
+/* .about .about-box {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  margin: 0 auto 20px auto;
+}
+
+.about .content .about-box {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  margin: 0 auto 20px auto;
+
+} */
+
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
   color: var(--color-secondary);
 }
+
+.about .img-fluid {
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 35px;
+}
+
 
 .about .content ul {
   list-style: none;
@@ -689,7 +715,7 @@ section {
 
 .skills  h4 {
   line-height: 18px;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
@@ -702,7 +728,11 @@ section {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   padding: 30px;
   background-color: #ffffffbf;
+  border-radius: 15px;
+}
 
+.skills .skills-box ul li {
+  margin: 5px 0 0 0;  
 }
 
 
@@ -746,6 +776,7 @@ section {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .resume .resume-item ul {
@@ -754,6 +785,8 @@ section {
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  text-align: justify;
+  padding-right: 30px;
 }
 
 .resume .resume-item:last-child {
@@ -814,6 +847,13 @@ section {
   margin-right: 0;
 } */
 
+.portfolio .portfolio-box {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  background-color: #ffffffbf;
+  border-radius: 15px;
+}
+
 .portfolio .portfolio-flters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -856,10 +896,12 @@ section {
 .portfolio .portfolio-content {
   position: relative;
   overflow: hidden;
+  border-radius: 15px;
 }
 
 .portfolio .portfolio-content img {
   transition: 0.3s;
+
 }
 
 .portfolio .portfolio-content .portfolio-info {
@@ -889,6 +931,7 @@ section {
   color: #fff;
   display: inline-block;
   background-color: var(--color-primary);
+  border-radius: 10px;
 }
  
 
@@ -1115,6 +1158,7 @@ section {
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
 }
 
 .contact .info i {
@@ -1159,24 +1203,33 @@ section {
   background:var(--color-primary);
   color: #fff;
 }
-
-
+.contact .img-fluid{
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: url("../img/hero-bg.jpg") center center; 
-  /* top center no-repeat; */
-  background-size: cover;
+  /* background: url("../img/hero-bg.jpg") center center; 
+     background-size: cover;
+  top center no-repeat; 
+  */
+  background: linear-gradient(
+    180deg,
+    #f5f6f7 0%,
+    #5b7380 100%
+  );
   font-size: 14px;
   padding: 0px 0 60px 0;
   position: relative;
 }
 
+
 .footer:before {
   content: "";
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
   inset: 0;
 }
